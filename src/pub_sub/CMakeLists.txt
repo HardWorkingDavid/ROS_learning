@@ -32,3 +32,6 @@ target_link_libraries(talker ${catkin_LIBRARIES})
 add_executable(listener src/listener.cpp)
 target_link_libraries(listener ${catkin_LIBRARIES})
 #add_dependencies(listener pub_sub_generate_messages_cpp)
+
+add_executable(class_listener src/class_listener.cpp)
+target_link_libraries(class_listener ${catkin_LIBRARIES})
