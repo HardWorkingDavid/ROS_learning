@@ -1,0 +1,2 @@
+odom:pub_sub
+-DCATKIN_DEVEL_PREFIX=/home/bigdavid/视频/ROS_learning/devel -DCMAKE_INSTALL_PREFIX=/home/bigdavid/视频/ROS_learning/install -G Unix Makefiles
