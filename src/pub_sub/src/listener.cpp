@@ -17,3 +17,7 @@ int main(int argc, char** argv) {
     ros::spin();
     return 0;
 }
+
+// ros::spin() 和 ros::spinOnce() 
+// 相同点:二者都用于处理回调函数；
+// 不同点:ros::spin() 是进入了循环执行回调函数，而 ros::spinOnce() 只会执行一次回调函数(没有循环)，在 ros::spin() 后的语句不会执行到，而 ros::spinOnce() 后的语句可以执行。
